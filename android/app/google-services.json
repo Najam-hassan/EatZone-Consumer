@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1009221909036",
+    "firebase_url": "https://food-aio-resturant.firebaseio.com",
+    "project_id": "food-aio-resturant",
+    "storage_bucket": "food-aio-resturant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009221909036:android:fad2bf81f1b9910cdc2f89",
+        "android_client_info": {
+          "package_name": "com.food_all_in_one"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009221909036-02ter6mv9rjdl8kr6e8glisgbhudguf7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.food_all_in_one",
+            "certificate_hash": "b813c6537005d979bcdbeae8a9d6aec2ebca152b"
+          }
+        },
+        {
+          "client_id": "1009221909036-gnpg584r0thp9vfcueam543d7ni85r6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.food_all_in_one",
+            "certificate_hash": "da9ad02f8433ff3590ae056276ff05d23266c097"
+          }
+        },
+        {
+          "client_id": "1009221909036-ra338jumk0iiem7a3rmg294n7jub9de0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2QtGUvekaJJBXvezyx0yoXOTzv0Ffods"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009221909036-ra338jumk0iiem7a3rmg294n7jub9de0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1009221909036-pcjanv6erh3lld518lmh0g81el3h6deh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodallinone.foodallinone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009221909036:android:3f3acb494874a698dc2f89",
+        "android_client_info": {
+          "package_name": "com.foodallinonerestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009221909036-ra338jumk0iiem7a3rmg294n7jub9de0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2QtGUvekaJJBXvezyx0yoXOTzv0Ffods"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009221909036-ra338jumk0iiem7a3rmg294n7jub9de0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1009221909036-pcjanv6erh3lld518lmh0g81el3h6deh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodallinone.foodallinone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
