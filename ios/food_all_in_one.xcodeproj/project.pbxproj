@@ -34,12 +34,12 @@
 		3073FDA26C9942C498BBF15D /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E8AB680513F422BBF277CCF /* SimpleLineIcons.ttf */; };
 		3AFB356B887C4CBA85616556 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85480FC3843B4E5A84B358EB /* Zocial.ttf */; };
 		419B4F6290BE4A3B9468F3C3 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1409ED169DDF4E0AA0ABCABB /* Ionicons.ttf */; };
-		51D3B387CD16B5528AB329E1 /* libPods-food_all_in_one.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA8D36BB1D7D34A51E4232F /* libPods-food_all_in_one.a */; };
 		55B5A9A175094BBDAA5B1164 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C50208C5D1384A93A1A36A87 /* OpenSans-SemiBoldItalic.ttf */; };
 		56A97ECFF5944CD8BB7BE7C4 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 088F2116F5EB4719B9054A9C /* OpenSans-ExtraBoldItalic.ttf */; };
 		6302813B4712441EB16A24D0 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A122D10229EA447FAFBBCBEB /* Feather.ttf */; };
 		66D72A58BFB349EDB322005C /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B435CD966E4B4930A6DEA4E3 /* libRNGestureHandler.a */; };
 		6826134B65BF4F55B9AF0730 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79BA7E20D291469186FE0803 /* FontAwesome5_Brands.ttf */; };
+		6D9E8694113123CE6004BBFC /* libPods-food_all_in_one.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B97D1E9CCED610B647062DA /* libPods-food_all_in_one.a */; };
 		7245BF29B1D74893832BA399 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D107DA360C544BFF83B6745C /* Octicons.ttf */; };
 		745D877722304068BE466ED1 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CF7B9F587BB410CA0959751 /* MaterialCommunityIcons.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
@@ -392,7 +392,6 @@
 		1409ED169DDF4E0AA0ABCABB /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		1EEC7F04C8C5453A9A1C2E8E /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../src/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
-		20FF67F52A3C3AE54C0A55B7 /* Pods-food_all_in_one.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-food_all_in_one.release.xcconfig"; path = "Pods/Target Support Files/Pods-food_all_in_one/Pods-food_all_in_one.release.xcconfig"; sourceTree = "<group>"; };
 		2A420F1A14564737BC2EB604 /* AirMaps.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AirMaps.xcodeproj; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; };
 		2C1578C749CF44D8BC2B2E24 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -400,6 +399,7 @@
 		43C98F18239E49E99702C8FA /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		4E8AB680513F422BBF277CCF /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		56EECC3A83DF48FFAACEA23F /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		5B97D1E9CCED610B647062DA /* libPods-food_all_in_one.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-food_all_in_one.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF7B9F587BB410CA0959751 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		67AD8DFD3E1F4810B1ECC63C /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
@@ -409,6 +409,7 @@
 		8398BCCFA29347D0A501B0E9 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../src/assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		85480FC3843B4E5A84B358EB /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		9570501D1E1542F68E3325C7 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9F08EF92F4EB158CE6BF790A /* Pods-food_all_in_one.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-food_all_in_one.debug.xcconfig"; path = "Target Support Files/Pods-food_all_in_one/Pods-food_all_in_one.debug.xcconfig"; sourceTree = "<group>"; };
 		A122D10229EA447FAFBBCBEB /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		A1333545DAB4405D8DB8FF5F /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-LightItalic.ttf"; path = "../src/assets/fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
@@ -421,13 +422,11 @@
 		D107DA360C544BFF83B6745C /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		D5CA443183724327BEAEBF2D /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		D5F9B4F687DD4DADB052EEEC /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		D990B52EBB77124C2C4C5F98 /* Pods-food_all_in_one.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-food_all_in_one.debug.xcconfig"; path = "Pods/Target Support Files/Pods-food_all_in_one/Pods-food_all_in_one.debug.xcconfig"; sourceTree = "<group>"; };
-		DAA8D36BB1D7D34A51E4232F /* libPods-food_all_in_one.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-food_all_in_one.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D871ECA65FDE88367E0800E5 /* Pods-food_all_in_one.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-food_all_in_one.release.xcconfig"; path = "Target Support Files/Pods-food_all_in_one/Pods-food_all_in_one.release.xcconfig"; sourceTree = "<group>"; };
 		DE2AF2D5DA8644ADA406A959 /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; };
 		EA3794380B1C4654A625417B /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F184B0759BD68BD729C5FC7C /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9AF6F05478F433F9D7675B0 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -462,7 +461,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				66D72A58BFB349EDB322005C /* libRNGestureHandler.a in Frameworks */,
-				51D3B387CD16B5528AB329E1 /* libPods-food_all_in_one.a in Frameworks */,
+				6D9E8694113123CE6004BBFC /* libPods-food_all_in_one.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,8 +642,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				DAA8D36BB1D7D34A51E4232F /* libPods-food_all_in_one.a */,
-				F184B0759BD68BD729C5FC7C /* libPods-OneSignalNotificationServiceExtension.a */,
+				5B97D1E9CCED610B647062DA /* libPods-food_all_in_one.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -708,8 +706,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				04FA60AC22AE7D3800412046 /* Recovered References */,
-				945724470CB2CA46F96F692C /* Pods */,
 				B1E5A9EF43654E2A80F62DE5 /* Resources */,
+				FCC4B259E570F5F24723D900 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -723,15 +721,6 @@
 				04695F7B2372DA9A007DC1E6 /* Food - all in one.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		945724470CB2CA46F96F692C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D990B52EBB77124C2C4C5F98 /* Pods-food_all_in_one.debug.xcconfig */,
-				20FF67F52A3C3AE54C0A55B7 /* Pods-food_all_in_one.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
@@ -775,6 +764,15 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		FCC4B259E570F5F24723D900 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F08EF92F4EB158CE6BF790A /* Pods-food_all_in_one.debug.xcconfig */,
+				D871ECA65FDE88367E0800E5 /* Pods-food_all_in_one.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -799,12 +797,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "food_all_in_one" */;
 			buildPhases = (
-				AFD4B7A567B31C010622A8D0 /* [CP] Check Pods Manifest.lock */,
+				B07E171ADFBBDCA03AF35D12 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				DE97ECB0867BABB554EA9AD8 /* [CP] Copy Pods Resources */,
+				DA8C5FF6D46D803C968D0456 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -829,11 +827,11 @@
 					04695F7A2372DA9A007DC1E6 = {
 						CreatedOnToolsVersion = 11.2;
 						DevelopmentTeam = 34464VVR3W;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 34464VVR3W;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1280,7 +1278,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		AFD4B7A567B31C010622A8D0 /* [CP] Check Pods Manifest.lock */ = {
+		B07E171ADFBBDCA03AF35D12 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1302,7 +1300,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DE97ECB0867BABB554EA9AD8 /* [CP] Copy Pods Resources */ = {
+		DA8C5FF6D46D803C968D0456 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1408,21 +1406,21 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 34464VVR3W;
+				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 4;
+				MARKETING_VERSION = 5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.foodallinone.foodallinone;
 				PRODUCT_NAME = "Food - all in one";
-				PROVISIONING_PROFILE_SPECIFIER = "FAIO-DEV-MONAM";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1437,21 +1435,21 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 34464VVR3W;
+				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 4;
+				MARKETING_VERSION = 5;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.foodallinone.foodallinone;
 				PRODUCT_NAME = "Food - all in one";
-				PROVISIONING_PROFILE_SPECIFIER = "FAIO-DEV-MONAM";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1459,16 +1457,16 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D990B52EBB77124C2C4C5F98 /* Pods-food_all_in_one.debug.xcconfig */;
+			baseConfigurationReference = 9F08EF92F4EB158CE6BF790A /* Pods-food_all_in_one.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = food_all_in_one/food_all_in_one.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 34464VVR3W;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1478,7 +1476,7 @@
 				INFOPLIST_FILE = food_all_in_one/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 4.0.4;
+				MARKETING_VERSION = 4.0.5;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1486,7 +1484,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.foodallinone.foodallinone;
 				PRODUCT_NAME = EatZone;
-				PROVISIONING_PROFILE_SPECIFIER = "FAIO-DEV-MONAM";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1494,15 +1492,15 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20FF67F52A3C3AE54C0A55B7 /* Pods-food_all_in_one.release.xcconfig */;
+			baseConfigurationReference = D871ECA65FDE88367E0800E5 /* Pods-food_all_in_one.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = food_all_in_one/food_all_in_one.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = 34464VVR3W;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1512,7 +1510,7 @@
 				INFOPLIST_FILE = food_all_in_one/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 4.0.4;
+				MARKETING_VERSION = 4.0.5;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1520,7 +1518,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.foodallinone.foodallinone;
 				PRODUCT_NAME = EatZone;
-				PROVISIONING_PROFILE_SPECIFIER = "FAIO-DEV-MONAM";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
