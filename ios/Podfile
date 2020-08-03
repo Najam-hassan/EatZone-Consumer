@@ -49,6 +49,8 @@ target 'food_all_in_one' do
 
   pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
 
+  pod 'RNAppleAuthentication', :path => '../node_modules/@invertase/react-native-apple-authentication'
+
 end
 
 post_install do |installer|

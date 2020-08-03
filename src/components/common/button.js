@@ -21,7 +21,7 @@ export const ButtonComponent = (props) => {
               source={props.socialIcon}
             />
           </View>
-          <View style={{ width: '60%' }}>
+          <View style={{ }}>
             <Text style={[styles.text, textStyle]}>{title}</Text>
           </View>
         </TouchableOpacity>

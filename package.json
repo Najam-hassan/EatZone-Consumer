@@ -8,8 +8,9 @@
     "test": "jest"
   },
   "dependencies": {
+    "@invertase/react-native-apple-authentication": "^1.1.2",
     "@ptomasroos/react-native-multi-slider": "1.0.0",
-    "@react-native-community/async-storage": "1.6.1",
+    "@react-native-community/async-storage": "^1.6.1",
     "@react-native-community/geolocation": "1.4.2",
     "axios": "^0.19.0",
     "immutable": "4.0.0-rc.12",

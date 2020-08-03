@@ -11,6 +11,7 @@ import * as actions from '../../actions/auth-actions'
 import * as selectors from '../../selectors/auth-selectors'
 
 import SignInForm from '../forms/signin-form';
+import appleAuth from "@invertase/react-native-apple-authentication";
 
 const { height } = Dimensions.get('screen');
 
@@ -22,14 +23,14 @@ class SignInScreen extends Component {
 		// OneSignal.configure()
 	}
 
-	componentDidMount () {
+	componentDidMount() {
 		OneSignal.addEventListener("ids", this.onIds.bind(this));
 	}
-	onIds (device) {
+	onIds(device) {
 		this.setState({ playerId: device.userId })
 	}
 
-	componentWillReceiveProps (nextProps) {
+	componentWillReceiveProps(nextProps) {
 		const { params } = this.props.navigation.state;
 		if (nextProps.authUser !== null) {
 			this.refs.toast.show(
@@ -44,15 +45,15 @@ class SignInScreen extends Component {
 					'user',
 					JSON.stringify(nextProps.user),
 					() => {
-							if (params && params.type === 'user') {
-								this.props.navigation.navigate('HomeScreen');
+						if (params && params.type === 'user') {
+							this.props.navigation.navigate('HomeScreen');
+						} else {
+							if (nextProps.user.stripeId) {
+								this.props.navigation.navigate('EditRestaurantProfile'); //('CreateRestaurantProfile');
 							} else {
-								if (nextProps.user.stripeId) {
-									this.props.navigation.navigate('EditRestaurantProfile'); //('CreateRestaurantProfile');
-								} else {
-									this.props.navigation.navigate('StripeConnectHome',{ user: nextProps.user });
-								}
+								this.props.navigation.navigate('StripeConnectHome', { user: nextProps.user });
 							}
+						}
 						this.forceUpdate();
 					}
 				);
@@ -85,40 +86,40 @@ class SignInScreen extends Component {
 		}
 	}
 
-	render () {
+	render() {
 		const { state } = this.props.navigation;
 		return (
-				<ScrollView
-					showsVerticalScrollIndicator={false}
-					keyboardShouldPersistTaps="handled"
-					contentContainerStyle = {styles.container}
+			<ScrollView
+				showsVerticalScrollIndicator={false}
+				keyboardShouldPersistTaps="handled"
+				contentContainerStyle={styles.container}
+			>
+				<ImageBackground
+					source={require('../../assets/images/auth-bg.jpg')}
+					style={styles.backgroundImage}
 				>
-					<ImageBackground
-						source={require('../../assets/images/auth-bg.jpg')}
-						style={styles.backgroundImage}
-					>
-						<TouchableOpacity
-							onPress={() => this.props.navigation.goBack()}
-							style={{ position: 'relative', margin: 15, zIndex: 9999 }}>
-							<Icon name="arrow-left" style={{ fontSize: 18, color: '#000' }} />
-						</TouchableOpacity>
-						<View style={styles.overlay}>
-							<View style={{
-								alignItems: 'center',
-								justifyContent: 'center',
-								flex: 0.4,
-							}}><Text style={styles.textStyle}>Sign In</Text></View>
-							<View style={styles.formContainer}>
-								<SignInForm
-									navigateTo={this.navigateTo}
-									userType={state.params.type}
-									playerId={this.state.playerId}
-								/>
-							</View>
+					<TouchableOpacity
+						onPress={() => this.props.navigation.goBack()}
+						style={{ position: 'relative', margin: 15, zIndex: 9999 }}>
+						<Icon name="arrow-left" style={{ fontSize: 18, color: '#000' }} />
+					</TouchableOpacity>
+					<View style={styles.overlay}>
+						<View style={{
+							alignItems: 'center',
+							justifyContent: 'center',
+							flex: 0.4,
+						}}><Text style={styles.textStyle}>Sign In</Text></View>
+						<View style={styles.formContainer}>
+							<SignInForm
+								navigateTo={this.navigateTo}
+								userType={state.params.type}
+								playerId={this.state.playerId}
+							/>
 						</View>
-						<Toast ref='toast' position='top' />
-					</ImageBackground>
-				</ScrollView>
+					</View>
+					<Toast ref='toast' position='top' />
+				</ImageBackground>
+			</ScrollView>
 		)
 	}
 }
@@ -140,11 +141,11 @@ const mapDispatchToProps = dispatch => {
 const styles = StyleSheet.create({
 	backgroundImage: {
 		width: '100%',
-		height: height - 20,
+		height: height - 20 + (appleAuth.isSupported ? 100 : 0),
 	},
-	container:{
-		flexGrow:1,
-		paddingBottom:50
+	container: {
+		flexGrow: 1,
+		paddingBottom: 50
 	},
 	formContainer: {
 		flex: 1,
